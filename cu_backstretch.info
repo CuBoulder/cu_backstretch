@@ -1,0 +1,30 @@
+name = cu_backstretch
+description = For this theme to work properly, the Backstretch Module must be enabled.
+screenshot = images/screenshot.png
+core = 7.x
+engine = phptemplate
+
+base theme = cu_bootstrap
+
+
+
+; Stylesheets. Anything within the "framework" folder will be placed before all others.
+
+; Theme specific styles. Any sub-themes should override this.
+stylesheets[all][] = styles/styles.css
+
+scripts[] = js/jquery.backstretch.min.js
+scripts[] = js/jquery.scrollfollow.js
+scripts[] = js/hide-site.js
+
+
+regions[search_box]     = Search Box
+regions[navigation]     = Navigation
+regions[slider]         = Slider
+regions[help]           = Help
+regions[content]        = Content
+regions[sidebar_first]  = Left sidebar
+regions[sidebar_second] = Right sidebar
+regions[after_content]  = After Content
+regions[footer]         = Footer
+regions[site_info]    = Site Information
