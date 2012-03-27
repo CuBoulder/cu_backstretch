@@ -101,7 +101,7 @@ ul#secondary-menu li a {
 #navigation ul#main-menu li a:hover {
   color: #363636;
 }
-#navigation ul#main-menu li.first a {
+body #navigation ul#main-menu li.first a {
   background-image: url(../images/home.png);
   background-position: center center;
   background-repeat: no-repeat;
