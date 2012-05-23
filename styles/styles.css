@@ -114,7 +114,8 @@ body #navigation ul#main-menu li.first a {
 #navigation ul#main-menu li.last a {
   border-right: none;
 }
-#navigation ul#main-menu li a.active-trail {
+#navigation ul#main-menu li a.active-trail,
+#navigation ul#main-menu li a.active {
   background: #e5e5e5;
   color: #111;
 }
