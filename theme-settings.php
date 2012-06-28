@@ -31,7 +31,7 @@ function cu_backstretch_form_system_theme_settings_alter(&$form, &$form_state) {
     '#type' => 'textfield',
     '#title' => 'Path to background image',
     '#default_value' => $bg_path,
-    '#disabled' => TRUE,
+    '#disabled' => FALSE,
   );
 
   // Upload field

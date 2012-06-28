@@ -311,14 +311,7 @@ h1#site-name {
 
 /* FULL WIDTH COLUMNS */
 
-.column-1 .full-content {
-  -webkit-column-count:2;
-  -webkit-column-gap:20px;
-  -moz-column-count:2;
-  -moz-column-gap:20px;
-  column-count:2;
-  column-gap:20px;
-}
+
 .summary {
   border-bottom: 1px solid #eee;
   margin-bottom: .75em;

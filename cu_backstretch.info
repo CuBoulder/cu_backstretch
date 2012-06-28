@@ -29,3 +29,7 @@ regions[after_content]  = After Content
 regions[footer]         = Footer
 regions[site_info]      = Site Information
 regions[alerts]         = Alerts
+
+settings[fonts] = font-set-1
+settings[after_content_columns] = 3
+settings[footer_columns] = 4
