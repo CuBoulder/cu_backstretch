@@ -19,7 +19,6 @@ scripts[] = js/hide-site.js
 
 
 regions[search_box]     = Search Box
-regions[navigation]     = Navigation
 regions[slider]         = Slider
 regions[help]           = Help
 regions[content]        = Content
