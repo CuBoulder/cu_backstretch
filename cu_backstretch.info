@@ -25,6 +25,7 @@ regions[content]        = Content
 regions[sidebar_first]  = Left sidebar
 regions[sidebar_second] = Right sidebar
 regions[after_content]  = After Content
+regions[lower]          = Lower
 regions[footer]         = Footer
 regions[site_info]      = Site Information
 regions[alerts]         = Alerts
