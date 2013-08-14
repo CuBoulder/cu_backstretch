@@ -23,14 +23,15 @@ function cu_backstretch_preprocess_html(&$vars) {
   
   $bg_path = file_create_url(theme_get_setting('bg_path'));
   if ($bg_path) {
+    // Remove the leading slash.
+    $bg_path = ltrim($bg_path, '/');
     $bg_css = '#main-wrapper { background-image:url(' . check_url($bg_path) . '); background-repeat:no-repeat;}';
     $options = array(
       'type' => 'inline',
       'group' => CSS_THEME,
   	);
     drupal_add_css($bg_css , $options);
-    
-    drupal_add_js('jQuery.backstretch(" ' . check_url($bg_path) . '");',
+drupal_add_js('jQuery.backstretch(" ' . check_url($bg_path) . '");',
     array('type' => 'inline', 'scope' => 'footer', 'weight' => 5)
   );
   }
